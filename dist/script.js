@@ -1,8 +1,8 @@
 const SITE_CONFIG = {
   checkoutUrl: "INSERIR_URL_CHECKOUT",
-  whatsappUrl: "https://wa.me/555191148986?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20combo%20de%20e-books%20da%20INSAVE.",
-  linkedinUrl: "https://www.linkedin.com/company/insavegrupo/",
-  instagramUrl: "INSERIR_URL_INSTAGRAM",
+  whatsappUrl: "https://api.whatsapp.com/send/?phone=555191148986",
+  linkedinUrl: "https://www.linkedin.com/company/insavegrupo/?viewAsMember=true",
+  instagramUrl: "https://www.instagram.com/insave.educacao/",
   youtubeUrl: "https://www.youtube.com/@INSAVE.financas",
   analytics: {
     ga4Id: "INSERIR_GA4_ID",
