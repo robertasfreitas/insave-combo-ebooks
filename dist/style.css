@@ -414,7 +414,7 @@ h1 em { color: var(--cyan); font-style: normal; }
   .header-cta { display: none; }
   .menu-toggle { display: block; margin-left: auto; }
   .hero { min-height: auto; padding: 116px 0 34px; }
-  h1 { font-size: clamp(1.75rem, 7.5vw, 2rem); line-height: 1.08; }
+  h1 { font-size: clamp(1.65rem, 6.75vw, 1.85rem); line-height: 1.08; }
   .hero-lead { font-size: 1rem; }
   .hero-actions { align-items: stretch; flex-direction: column; gap: 12px; }
   .hero-actions .button { width: 100%; }
