@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url("assets/fonts/manrope-latin-variable.woff2") format("woff2");
+}
+
 :root {
   --ink-950: #020615;
   --ink-900: #050b1d;

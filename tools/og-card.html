@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <style>
+    @font-face { font-family: Manrope; font-weight: 400 800; src: url("../dist/assets/fonts/manrope-latin-variable.woff2") format("woff2"); }
+    * { box-sizing: border-box; }
+    html, body { width: 1200px; height: 630px; margin: 0; overflow: hidden; }
+    body {
+      position: relative;
+      background: radial-gradient(circle at 80% 35%, rgba(18,105,255,.28), transparent 34%), linear-gradient(135deg, #020510 0%, #050a18 48%, #071a38 100%);
+      color: #f7f9ff;
+      font-family: Manrope, Arial, sans-serif;
+    }
+    body::before { content: ""; position: absolute; inset: 0; opacity: .18; background-image: linear-gradient(rgba(58,111,220,.16) 1px, transparent 1px), linear-gradient(90deg, rgba(58,111,220,.16) 1px, transparent 1px); background-size: 58px 58px; }
+    .logo { position: absolute; left: 62px; top: 52px; width: 220px; }
+    .copy { position: absolute; z-index: 2; left: 62px; top: 172px; width: 600px; }
+    h1 { margin: 0; font-size: 58px; line-height: 1.04; letter-spacing: -.055em; font-weight: 650; }
+    h1 span { color: #12d8e8; }
+    p { width: 520px; margin: 28px 0 0; color: #c9d2e4; font-size: 24px; line-height: 1.45; }
+    .books { position: absolute; right: 24px; bottom: -92px; width: 520px; height: 650px; }
+    .book { position: absolute; width: 250px; border-radius: 5px; filter: drop-shadow(0 24px 32px rgba(0,0,0,.5)); }
+    .book.left { left: 0; top: 145px; transform: rotate(-8deg); }
+    .book.center { left: 135px; top: 48px; z-index: 2; width: 270px; }
+    .book.right { right: 0; top: 150px; transform: rotate(8deg); }
+  </style>
+</head>
+<body>
+  <img class="logo" src="../dist/assets/images/logo-azul-white.png" alt="">
+  <div class="copy">
+    <h1>Monte os principais relatórios financeiros <span>com 3 guias práticos.</span></h1>
+    <p>DRE Gerencial, Fluxo de Caixa e Balanço Patrimonial para organizar a gestão financeira da sua empresa.</p>
+  </div>
+  <div class="books">
+    <img class="book left" src="../dist/assets/images/ebook-dre.webp" alt="">
+    <img class="book center" src="../dist/assets/images/ebook-fluxo-caixa.webp" alt="">
+    <img class="book right" src="../dist/assets/images/ebook-balanco-patrimonial-v2.webp" alt="">
+  </div>
+</body>
+</html>
