@@ -1,5 +1,5 @@
 const SITE_CONFIG = {
-  checkoutUrl: "INSERIR_URL_CHECKOUT",
+  checkoutUrl: "https://pay.hotmart.com/Y108020255P?checkoutMode=10",
   whatsappUrl: "https://api.whatsapp.com/send/?phone=555191148986",
   linkedinUrl: "https://www.linkedin.com/company/insavegrupo/?viewAsMember=true",
   instagramUrl: "https://www.instagram.com/insave.educacao/",
