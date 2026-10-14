@@ -31,7 +31,7 @@ Abra um terminal na pasta `dist`, execute `python -m http.server 4177` e acesse 
 ## Pendências antes da campanha
 
 1. Inserir os IDs de GA4, Meta Pixel ou GTM em `SITE_CONFIG` e os respectivos scripts oficiais no HTML, se forem utilizados.
-2. Revisar a URL canônica, `robots.txt` e `sitemap.xml` caso o site seja publicado em outro domínio.
+2. URL definitiva configurada: `https://ebooks.insave.net.br/combo-de-ebooks/`.
 
 ## Publicação
 

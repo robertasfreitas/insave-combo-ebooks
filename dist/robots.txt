@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://insave-combo-ebooks.felipe-teto.chatgpt.site/sitemap.xml
+Sitemap: https://ebooks.insave.net.br/combo-de-ebooks/sitemap.xml
